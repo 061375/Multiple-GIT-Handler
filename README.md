@@ -2,11 +2,11 @@
 # Multiple-GIT-Handler
 A Powershell script to run multiple GIT repositories at once to help keep them in-line.
 
-[versions.md](versions.md)
+[versions](versions.md)
 
 Any operation you might perform using GIT on one repository can be run on many.
 
-Example
+## Usage Examples
 
     git status
 
@@ -25,5 +25,19 @@ This will add any changes to:
 - \path\file.ts
 - ...
 
+## Installation
+
+Powershell
+
+    notepad $PROFILE
+
+This will open Notepad
+
+    function aqgit {
+        & "C:\Path\To\Your\aqgit.ps1" @args
+    }
+  Powershell or restart your terminal
+
+      . $PROFILE
 
   
