@@ -2,6 +2,8 @@
 # Multiple-GIT-Handler
 A Powershell script to run multiple GIT repositories at once to help keep them in-line.
 
+[versions.md](versions.md)
+
 Any operation you might perform using GIT on one repository can be run on many.
 
 Example
